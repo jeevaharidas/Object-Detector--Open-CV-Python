@@ -25,3 +25,12 @@ It detects **up to 99+ objects** from a live webcam feed, drawing bounding boxes
 3. Install OpenCV:
    ```bash
    pip install opencv-python
+
+4. Run the script::
+      ```bash
+   python object detection.py
+      
+## Output
+The webcam will open and start detecting objects.
+Each detected object will be displayed with a bounding box, label, and accuracy score in real-time.
+
